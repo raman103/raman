@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: aquamarine;
+}
+.logosection{
+    width: 30%;
+    height: 100%;
+    /* background-color: yellow; */
+    float: left;
+}
+nav{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(8, 0, 255);
+    float: left;
+}
+.logosection img{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+ul li{
+    float: left;
+margin: 20px;
+list-style-type: none;
+}

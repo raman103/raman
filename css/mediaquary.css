@@ -1,0 +1,68 @@
+body{
+margin: 0;
+padding: 0;
+background-color: brown;
+
+}
+.box{
+    width: 20%;
+    height: 350px;
+    background-color: aqua;
+    float: left;
+    margin: 10px;
+}
+.box1{
+    width: 20%;
+    height: 350px;
+    background-color: rgb(47, 52, 5);
+    float: left;
+    margin: 10px;
+}
+
+.box2{
+    width: 20%;
+    height: 350px;
+    background-color: rgb(20, 5, 52);
+    float: left;
+    margin: 10px;
+}
+
+.box3{
+    width: 20%;
+    height: 350px;
+    background-color: rgb(52, 5, 15);
+    float: left;
+    margin: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .box{
+        width: 95%;
+        height: 350px;
+        background-color: rgb(240, 29, 1);
+        float: left;
+        margin: 10px;
+    }
+    .box1{
+        width: 95%;
+        height: 350px;
+        background-color: rgb(225, 249, 15);
+        float: left;
+        margin: 10px;
+    }
+    .box2{
+        width: 45%;
+        height: 176px;
+        background-color: rgb(20, 5, 52);
+        float: left;
+        margin: 10px;
+    }
+    .box3{
+        width: 45%;
+        height: 176px;
+        background-color: rgb(123, 96, 183);
+        float: left;
+        margin: 10px;
+    }
+    
+}

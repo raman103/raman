@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adhar.css">
+</head>
+<body>
+   
+    <script>
+        function validation() {
+            var regexp=/^[2-9]{1}[0-9]{3}\s{1}[0-9]{4}\s{1}[0-9]{4}/;
+            var x=document.getElementById("txtAadhar").value; 
+        if(regexp.test(x)) {
+            window.alert("Your Valid Aadhar no."); 
+        }
+    }
+         else 
+        { 
+        window.alert("Invalid Aadhar no."); 
+        } 
+        }
+        </script> 
+        </head>
+         <body>
+         <h3>Enter Your Aadhar Number :</h3>
+         <input type="text" id="txtAadhar"/></br>
+         <input type="button" id="butAadhar" placeholder="Validate Aadhar"  onclick = "validation()" value = "Validate Aadhar"/> 
+        </body> 
+        </html>
+
+    </script>
+    
+
+</body>
+</html>

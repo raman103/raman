@@ -1,0 +1,36 @@
+.box{
+width: 350px;
+height: 400px;
+background-color: brown;
+text-align: center;
+margin: 250px 100px 500px 600px;
+
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    box-shadow: -4px 2px 3px -3px;
+
+
+
+
+}
+    
+input{
+    
+        height: 45px;
+        width: 200px;
+        border-radius: 10px
+
+
+}
+
+
+
+
+
+
+
+
